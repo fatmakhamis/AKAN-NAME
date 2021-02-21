@@ -13,23 +13,44 @@
                 <p>Welcome to my web application that requests for your birthday details and gender then calculates the day you were born. Depending on your gender Your Akan name will be displayed. Akan names are derived from Ghanian culture. Frequently in Ghana, 
                 <br>children are given their first name as a 'day name' which corresponds to the day in the week they were born.
                 <p>To find your Akan name , fill the form below and click Submit button
-             <h3><i>On what day of the week were you born?</i></h3>
-      
-                <p>Enter your birthday</b> (then hit the &quot;Update&quot; button):</p>
-        <form>
-               <p>Numeric Month (1-12): <input TYPE="text" NAME="month" SIZE="2"> </p>
-               <p>Day of Month (1-31): <input TYPE="text" NAME="day" SIZE="2"> </p>
-               <p>Year (eg. 1960): <input TYPE="text" NAME="year" SIZE="4"> </p>
-               <p><input TYPE="button" VALUE="Update" ONCLICK="compute(this.form)"> <input TYPE="reset"
-               VALUE="Clear"> </p>
-               <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="18"> </p>
-               <p>Day of Week: <input TYPE="text" NAME="result2" SIZE="18"> </p>
-      </form>
-            <h4 id = display-name><strong>Your Akan name is:</strong></h4>
-                <p id="result3"></p>
-            </div>
-            </div>
-   <script src="js/script.js" ></script>   
+                  <form class="myform" onsubmit="return getName()">
+                    <label for="year-of-birth">
+                      Year:
+                      <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+                    </label><br>
+                    <label for="month-of-birth">
+                      Month:
+                      <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+                    </label><br>
+                    <label for="day-of-birth">
+                      Day:
+                      <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+                    </label>
+                    <br>
+                    <label for="gender">
+                      <p>Select your gender: </p>
+                      Male
+                      <input id="male-input" type="radio" name="gender" value="male" required><br>
+                      Female
+                      <input id="female-input" type="radio" name="gender" value="female" required>
+          
+                    </label>
+                    <br><br>
+                    <input id="get-name" type="submit" name="" value="SUBMIT">
+                    <br><br>
+                  </form>
+                  <form onsubmit="return clearInput()">
+                    <input class="clear" type="submit" value="RESET">
+                  </form>
+          
+          
+                  <h4 id = display-name><strong>Your Akan name is:</strong></h4>
+                  <p id="result"></p>
+                </div>
+              </div>
+          
+          
+   <script src="js/script.js"> </script>   
             
-</body>
+        </body>
 </html>
