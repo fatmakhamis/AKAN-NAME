@@ -25,13 +25,23 @@ alert('Invalid date format!');
       return true;
     }
   }
-
   function dayValidator () {
     if (dayOfBirth <=0 && dayOfBirth >31) { 
 alert('Invalid date format!');
-
-   
-      } else {
-        return true;
+ } else {
+return true;
   }
+ 
+  let daysOfWeek = [
+    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+  ];
+
+  let maleAkanNames = [
+    "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
+  ];
+
+  let femaleAkanNames = [
+    "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
+  ];
+
 </script>
