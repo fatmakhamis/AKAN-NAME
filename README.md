@@ -3,7 +3,7 @@
 ## Description
 This web application requests for your birthday details and gender then calculates the day you were born. Depending on your gender Your Akan name will be displayed. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. You need to fill a form with your birthdate details to display your Akan name.
 ##Demo
-Here is a working live demo:https://fatmakhamis.github.io/Fatma-Portfolio/.
+Here is a working live demo:https://fatmakhamis.github.io/AKAN-NAME/
 ## Setup/Installation Requirements
 * Clone the repository
 * Change directory to the project directory
