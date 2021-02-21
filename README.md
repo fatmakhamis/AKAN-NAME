@@ -1,7 +1,7 @@
-# Portfolio Project
-#### By Fatma Khamis, 13/02/2021
+# Akan name Project
+#### By Fatma Khamis, 21/02/2021
 ## Description
-This project was set up to create a Personal Portfolio as part of week's one Individual project
+This web application requests for your birthday details and gender then calculates the day you were born. Depending on your gender Your Akan name will be displayed. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. You need to fill a form with your burthdate details to display your Akan name.
 ##Demo
 Here is a working live demo:https://fatmakhamis.github.io/Fatma-Portfolio/.
 ## Setup/Installation Requirements
