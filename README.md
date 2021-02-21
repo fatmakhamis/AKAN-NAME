@@ -9,11 +9,12 @@ Here is a working live demo:https://fatmakhamis.github.io/AKAN-NAME/
 * Change directory to the project directory
 * Open project on VSCode
 * Start the project on live server
-##Behavioru Development Driven
+##Behavior Development Driven
 * the app prompts a user to enter Date of Birth and gender
 * function for validity check will execute to confirm the correct format of year, month and date.
 * Depending on the gender the app will determine the day of the week you are born
 * Finally it will submit the Akan name 
+* You can reset and start a fresh or enter new date
 ## Known Bugs
 * No known bugs so far
 ## Technologies Used
