@@ -20,28 +20,22 @@ function getName () {
 // validation functions
   function monthValidator () {
     if (monthOfBirth < 1 || monthOfBirth > 12) {
-alert('Invalid date format!');
+        alert('Invalid date format!');
      } else {
       return true;
     }
   }
   function dayValidator () {
     if (dayOfBirth <=0 && dayOfBirth >31) { 
-alert('Invalid date format!');
- } else {
-return true;
-  }
+        alert('Invalid date format!');
+   } else {
+    return true;
+   }
  
-  let daysOfWeek = [
-    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-  ];
+  let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-  let maleAkanNames = [
-    "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
-  ];
+  let maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
-  let femaleAkanNames = [
-    "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
-  ];
+  let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 </script>
