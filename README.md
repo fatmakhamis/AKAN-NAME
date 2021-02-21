@@ -9,11 +9,17 @@ Here is a working live demo:https://fatmakhamis.github.io/Fatma-Portfolio/.
 * Change directory to the project directory
 * Open project on VSCode
 * Start the project on live server
+##Behavioru Development Driven
+* the app prompts a user to enter Date of Birth and gender
+* function for validity check will execute to confirm the correct format of year, month and date.
+* Depending on the gender the app will determine the day of the week you are born
+* Finally it will submit the Akan name 
 ## Known Bugs
-* The navigation is failing on smaller larger screens like mobile phones and tabs
+* No known bugs so far
 ## Technologies Used
 * HTML
 * CSS
+* Javascript
 ## Support and contact details
 To fix a abug or enhance this project,follow thw steps below:
 * Fork the repo
