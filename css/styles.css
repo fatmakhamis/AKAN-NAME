@@ -1,7 +1,6 @@
 body{
   font-family: 'Quicksand', sans-serif;
-  background-image: url('../images/ghana.jpg');
-  color: white;
+  background-image: url('../images/ghana.jpeg');
   font-size: 17px;
 }
 .container{
@@ -9,7 +8,7 @@ body{
     margin: auto;
   }
  .content{
-    background-color: rgba(206, 17, 38, 0.72);
+  background-color: rgba(206, 17, 38, 0.72);
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 10px;
