@@ -4,12 +4,11 @@ body{
   color: white;
   font-size: 17px;
 }
-
-  .container{
+.container{
     width: 80%;
     margin: auto;
   }
-  .content{
+ .content{
     background-color: rgba(206, 17, 38, 0.72);
     margin-left: 20%;
     margin-right: 20%;
@@ -19,5 +18,11 @@ body{
     box-shadow: 2px 2px #000000;
     border-radius: 0.5%;
   }
+  h1{
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
   
   
